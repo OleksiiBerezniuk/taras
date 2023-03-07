@@ -1,0 +1,480 @@
+body {	
+font-family: 'Alumni Sans';
+font-size: 68px;
+font-weight: 500;
+line-height: 75px;
+letter-spacing: 0.08em;
+text-align: left;
+position: relative;
+height: 8743px;
+background: linear-gradient(179.94deg, #EFEFEF 0.06%, #EDE2D2 191.5%);
+
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+header{
+    width: 1328px;
+    height: 593px;
+    margin-top: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    position: absolute;
+    width: 700px;
+    height: 122px;
+/* h1 */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 110px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    
+/* or 165px */
+    letter-spacing: 0.04em;
+    font-variant: small-caps;
+/* text */
+    color: #1F180E;
+    margin: 0px;
+}
+.pidzagolovok{
+    position: absolute;
+    width: 560px;
+    height: 300px;
+    top: 186px;
+    margin: 0px;
+}
+
+h2{
+    
+    
+/* h2 */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 110%;
+/* or 75px */
+    letter-spacing: 0.08em;
+    font-variant: small-caps;
+    color: #1F180E;
+    margin: 0px;
+}
+
+h4{
+    font-family: Alumni Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.25em;
+    text-align: left;
+    margin: 0px;
+
+}
+
+h5{
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.25em;
+    font-variant: small-caps;
+    margin: 0px;
+     
+}
+.greentext{
+    color:#46AF91; 
+}
+
+button{
+    box-sizing: border-box;
+    position: absolute;
+    width: 270px;
+    height: 60px;
+    border: 5px solid #46AF91;
+    
+}
+.buttonInHeader{
+    margin-top: 533px;
+}
+
+.textbutton{
+    position: absolute;
+    width: 197px;
+    height: 38px;
+    left: 37px;
+    top: 11px;
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38.4px;
+    letter-spacing: 0.25em;
+    font-variant: small-caps;
+    color: #000000;
+    top:7px;
+}
+
+.menu{
+    position: absolute;
+    width: 195px;
+    height: 593px;
+    margin-left: 1143px;
+    margin-top: 0px;
+}
+
+.headertelegram{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 21px;
+    position: absolute;
+    top: 26px;
+    
+}
+
+.imgAlone{
+    height: 50px;
+    width: 40px;
+    left: 0px;
+    top: 26px;
+    border-radius: 0px;
+
+    
+    
+}
+.imgTeleK{
+    width: 40px;
+    height: 50px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+}
+
+.HeaderTelegramAlone{
+    position: absolute;
+    left: 12.71%;
+    right: 12.29%;
+    top: 35.73%;
+    bottom: 14.27%;
+}
+.HeaderTelegramAlone2{
+    position: absolute;
+    left: 12.71%;
+    right: 12.29%;
+    top: 35.73%;
+    bottom: 14.27%;
+    Width:30px;
+    Height:25px;
+    margin-left: 66px;
+    
+}
+
+.IconK{
+    position: absolute;
+    left: 12.5%;
+    right: 65%;
+    top: 60%;
+    bottom: 4%;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.25em;
+    font-variant: small-caps;
+    color: #000000;
+    margin-left: 66px;
+}
+.photo1{
+    position: absolute;
+    margin-left: 640px;
+    
+}
+.photo{
+    box-sizing: border-box;
+
+position: absolute;
+width: 406.29px;
+height: 540.27px;
+margin-left: 643.69px;
+margin-top: 52.44px;
+
+background: url(.png);
+transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.imgAlone{   
+    width: 40px;
+    height: 50px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.imgTeleK{
+    width: 40px;
+    height: 50px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.imgK{
+    position: absolute;
+    left: 12.5%;
+    right: 65%;
+    top: 60%;
+    bottom: 4%;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.25em;
+    font-variant: small-caps;
+}
+.menutext{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+
+    position: absolute;
+    width: 195px;
+    height: 374px;
+    top: 219px;
+}
+
+.menu1{
+    height: 38px;
+    width: 195px;
+    left: 0px;
+    top: 0px;
+
+}
+
+.menu2{
+    height: 38px;
+    width: 195px;
+    left: 0px;
+    top: 68px;
+}
+
+.menu3{
+    height: 38px;
+    width: 195px;
+    left: 0px;
+    top: 136px;
+}
+.menu4{
+    height: 38px;
+    width: 195px;
+    left: 0px;
+    top: 204px;
+}
+.menu5{
+    height: 38px;
+    width: 195px;
+    left: 0px;
+    top: 272px;
+}
+.menu6{
+    height: 38px;
+    width: 195px;
+    left: 0px;
+    top: 340px;
+}
+
+.text{
+    font-family: 'Alumni Sans';
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 45px;
+    letter-spacing: 0.25em;
+    text-align: left;
+    color: #46AF91;
+}
+
+
+.a1{
+    position: absolute;
+    width: 13.35px;
+    height: 43.58px;
+    left: 634px;
+    top: 578.23px;
+    transform: matrix(0.14, -0.99, 0.99, 0.14, 0, 0);
+}
+.a2{
+    position: absolute;
+    width: 10.49px;
+    height: 43.59px;
+    left: 636.87px;
+    top: 558.05px;
+    transform: matrix(0.13, -0.99, 0.99, 0.13, 0, 0);
+}
+.a3{
+    position: absolute;
+    width: 15.26px;
+    height: 43.59px;
+    left: 639.2px;
+    top: 540.35px;
+    transform: matrix(0.12, -0.99, 0.99, 0.11, 0, 0);
+}
+.a4{
+    position: absolute;
+    width: 9.54px;
+    height: 43.59px;
+    left: 641.86px;
+    top: 517.89px;
+    transform: matrix(0.11, -0.99, 0.99, 0.1, 0, 0);
+}
+.a5{
+    position: absolute;
+    width: 10.49px;
+    height: 43.59px;
+    left: 643.68px;
+    top: 500.99px;
+    transform: matrix(0.09, -1, 1, 0.09, 0, 0);
+}
+.a6{
+    position: absolute;
+    width: 11.44px;
+    height: 43.59px;
+    left: 645.35px;
+    top: 483.5px;
+    transform: matrix(0.08, -1, 1, 0.08, 0, 0);
+}
+.a7{
+    position: absolute;
+    width: 10.49px;
+    height: 43.6px;
+    left: 647.84px;
+    top: 449.64px;
+    transform: matrix(0.04, -1, 1, 0.04, 0, 0);
+}
+.a8{
+    position: absolute;
+    width: 14.3px;
+    height: 43.6px;
+    left: 648.67px;
+    top: 432.23px;
+    transform: matrix(0.01, -1, 1, 0.01, 0, 0);
+}
+.a9{
+    position: absolute;
+    width: 11.44px;
+    height: 43.59px;
+    left: 649.14px;
+    top: 411.18px;
+    transform: matrix(-0.06, -1, 1, -0.06, 0, 0);
+}
+.a10{
+    position: absolute;
+    width: 12.4px;
+    height: 43.58px;
+    left: 648.23px;
+    top: 394.45px;
+    transform: matrix(-0.17, -0.99, 0.99, -0.16, 0, 0);
+}
+.a11{
+    position: absolute;
+    width: 5.72px;
+    height: 43.57px;
+    left: 644.81px;
+    top: 375.37px;
+    transform: matrix(-0.2, -0.98, 0.98, -0.19, 0, 0);
+}
+.a12{
+    position: absolute;
+    width: 12.4px;
+    height: 43.59px;
+    left: 641.7px;
+    top: 360.87px;
+    transform: matrix(-0.13, -0.99, 0.99, -0.12, 0, 0);
+}
+.a13{
+    position: absolute;
+    width: 13.35px;
+    height: 43.58px;
+    left: 634px;
+    top: 578.23px;
+    transform: matrix(0.14, -0.99, 0.99, 0.14, 0, 0);
+}
+.a14{
+    position: absolute;
+    width: 13.35px;
+    height: 43.58px;
+    left: 634px;
+    top: 578.23px;
+    transform: matrix(0.14, -0.99, 0.99, 0.14, 0, 0);
+}
+.a15{
+    position: absolute;
+    width: 13.35px;
+    height: 43.58px;
+    left: 634px;
+    top: 578.23px;
+    transform: matrix(0.14, -0.99, 0.99, 0.14, 0, 0);
+}
+.a16{
+    position: absolute;
+    width: 13.35px;
+    height: 43.58px;
+    left: 634px;
+    top: 578.23px;
+    transform: matrix(0.14, -0.99, 0.99, 0.14, 0, 0);
+}
+.a17{
+    position: absolute;
+    width: 13.35px;
+    height: 43.58px;
+    left: 634px;
+    top: 578.23px;
+    transform: matrix(0.14, -0.99, 0.99, 0.14, 0, 0);
+}
+.a18{
+    position: absolute;
+    width: 13.35px;
+    height: 43.58px;
+    left: 634px;
+    top: 578.23px;
+    transform: matrix(0.14, -0.99, 0.99, 0.14, 0, 0);
+}
+.a19{
+    position: absolute;
+    width: 13.35px;
+    height: 43.58px;
+    left: 634px;
+    top: 578.23px;
+    transform: matrix(0.14, -0.99, 0.99, 0.14, 0, 0);
+}
+
+.About{
+    position: absolute;
+    width: 1328px;
+    height: 1890px;
+    left: 200px;
+    top: 813px;
+}
+
+.ten{
+    position: absolute;
+    background: #E9CEA852;
+    height: 865px;
+    width: 737px;
+    left: 1283px;
+    top: 224px;
+    border-radius: 0px;
+    background: rgba(233, 206, 168, 0.32);
+    filter: blur(149px);
+}
