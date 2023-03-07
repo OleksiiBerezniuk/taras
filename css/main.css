@@ -6,16 +6,16 @@ line-height: 75px;
 letter-spacing: 0.08em;
 text-align: left;
 position: relative;
-height: 8743px;
+height: auto;
+overflow-x: hidden;
 background: linear-gradient(179.94deg, #EFEFEF 0.06%, #EDE2D2 191.5%);
-
 }
 
-div, p, input, button, form, span, a, ul, li {
-	box-sizing: border-box;
-}
+
 
 header{
+    display: flex;
+    flex-direction: row;
     width: 1328px;
     height: 593px;
     margin-top: 80px;
@@ -43,13 +43,6 @@ h1 {
     color: #1F180E;
     margin: 0px;
 }
-.pidzagolovok{
-    position: absolute;
-    width: 560px;
-    height: 300px;
-    top: 186px;
-    margin: 0px;
-}
 
 h2{
     
@@ -57,7 +50,7 @@ h2{
 /* h2 */
     font-style: normal;
     font-weight: 500;
-    font-size: 68px;
+    font-size: 60px;
     line-height: 110%;
 /* or 75px */
     letter-spacing: 0.08em;
@@ -66,9 +59,29 @@ h2{
     margin: 0px;
 }
 
+h3{
+font-family: Arial;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0.24em;
+
+margin-top: 0px;
+}
+
+.data{
+    font-family: Arial;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0.24em;
+}
+
+
 h4{
-    font-family: Alumni Sans;
-    font-size: 32px;
+    font-family: 'Alumni Sans';
+    font-size: 22px;
     font-weight: 700;
     line-height: 38px;
     letter-spacing: 0.25em;
@@ -81,13 +94,30 @@ h5{
     font-family: 'Alumni Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 22px;
     line-height: 38px;
     letter-spacing: 0.25em;
     font-variant: small-caps;
     margin: 0px;
-     
 }
+
+h6{
+    font-family: Arial;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.25em;
+    text-align: left
+}
+
+.pidzagolovok{
+    position: absolute;
+    width: 560px;
+    height: 300px;
+    top: 186px;
+    margin: 0px;
+}
+
 .greentext{
     color:#46AF91; 
 }
@@ -95,10 +125,12 @@ h5{
 button{
     box-sizing: border-box;
     position: absolute;
-    width: 270px;
-    height: 60px;
+    width: 230px;
+    height: 50px;
     border: 5px solid #46AF91;
-    
+}
+button:active{
+    background-color: #46AF91;
 }
 .buttonInHeader{
     margin-top: 533px;
@@ -106,15 +138,15 @@ button{
 
 .textbutton{
     position: absolute;
-    width: 197px;
-    height: 38px;
-    left: 37px;
+    width: 136px;
+    height: 26px;
+    left: 47px;
     top: 11px;
     font-family: 'Alumni Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 38.4px;
+    font-size: 22px;
+    line-height: 26px;
     letter-spacing: 0.25em;
     font-variant: small-caps;
     color: #000000;
@@ -136,7 +168,7 @@ button{
     padding: 0px;
     gap: 21px;
     position: absolute;
-    top: 26px;
+    
     
 }
 
@@ -252,7 +284,7 @@ transform: matrix(1, 0, 0, 1, 0, 0);
     position: absolute;
     width: 195px;
     height: 374px;
-    top: 219px;
+    margin-top: 219px;
 }
 
 .menu1{
@@ -304,177 +336,315 @@ transform: matrix(1, 0, 0, 1, 0, 0);
     text-align: left;
     color: #46AF91;
 }
-
-
-.a1{
+.block2{
     position: absolute;
-    width: 13.35px;
-    height: 43.58px;
-    left: 634px;
-    top: 578.23px;
-    transform: matrix(0.14, -0.99, 0.99, 0.14, 0, 0);
-}
-.a2{
-    position: absolute;
-    width: 10.49px;
-    height: 43.59px;
-    left: 636.87px;
-    top: 558.05px;
-    transform: matrix(0.13, -0.99, 0.99, 0.13, 0, 0);
-}
-.a3{
-    position: absolute;
-    width: 15.26px;
-    height: 43.59px;
-    left: 639.2px;
-    top: 540.35px;
-    transform: matrix(0.12, -0.99, 0.99, 0.11, 0, 0);
-}
-.a4{
-    position: absolute;
-    width: 9.54px;
-    height: 43.59px;
-    left: 641.86px;
-    top: 517.89px;
-    transform: matrix(0.11, -0.99, 0.99, 0.1, 0, 0);
-}
-.a5{
-    position: absolute;
-    width: 10.49px;
-    height: 43.59px;
-    left: 643.68px;
-    top: 500.99px;
-    transform: matrix(0.09, -1, 1, 0.09, 0, 0);
-}
-.a6{
-    position: absolute;
-    width: 11.44px;
-    height: 43.59px;
-    left: 645.35px;
-    top: 483.5px;
-    transform: matrix(0.08, -1, 1, 0.08, 0, 0);
-}
-.a7{
-    position: absolute;
-    width: 10.49px;
-    height: 43.6px;
-    left: 647.84px;
-    top: 449.64px;
-    transform: matrix(0.04, -1, 1, 0.04, 0, 0);
-}
-.a8{
-    position: absolute;
-    width: 14.3px;
-    height: 43.6px;
-    left: 648.67px;
-    top: 432.23px;
-    transform: matrix(0.01, -1, 1, 0.01, 0, 0);
-}
-.a9{
-    position: absolute;
-    width: 11.44px;
-    height: 43.59px;
-    left: 649.14px;
-    top: 411.18px;
-    transform: matrix(-0.06, -1, 1, -0.06, 0, 0);
-}
-.a10{
-    position: absolute;
-    width: 12.4px;
-    height: 43.58px;
-    left: 648.23px;
-    top: 394.45px;
-    transform: matrix(-0.17, -0.99, 0.99, -0.16, 0, 0);
-}
-.a11{
-    position: absolute;
-    width: 5.72px;
-    height: 43.57px;
-    left: 644.81px;
-    top: 375.37px;
-    transform: matrix(-0.2, -0.98, 0.98, -0.19, 0, 0);
-}
-.a12{
-    position: absolute;
-    width: 12.4px;
-    height: 43.59px;
-    left: 641.7px;
-    top: 360.87px;
-    transform: matrix(-0.13, -0.99, 0.99, -0.12, 0, 0);
-}
-.a13{
-    position: absolute;
-    width: 13.35px;
-    height: 43.58px;
-    left: 634px;
-    top: 578.23px;
-    transform: matrix(0.14, -0.99, 0.99, 0.14, 0, 0);
-}
-.a14{
-    position: absolute;
-    width: 13.35px;
-    height: 43.58px;
-    left: 634px;
-    top: 578.23px;
-    transform: matrix(0.14, -0.99, 0.99, 0.14, 0, 0);
-}
-.a15{
-    position: absolute;
-    width: 13.35px;
-    height: 43.58px;
-    left: 634px;
-    top: 578.23px;
-    transform: matrix(0.14, -0.99, 0.99, 0.14, 0, 0);
-}
-.a16{
-    position: absolute;
-    width: 13.35px;
-    height: 43.58px;
-    left: 634px;
-    top: 578.23px;
-    transform: matrix(0.14, -0.99, 0.99, 0.14, 0, 0);
-}
-.a17{
-    position: absolute;
-    width: 13.35px;
-    height: 43.58px;
-    left: 634px;
-    top: 578.23px;
-    transform: matrix(0.14, -0.99, 0.99, 0.14, 0, 0);
-}
-.a18{
-    position: absolute;
-    width: 13.35px;
-    height: 43.58px;
-    left: 634px;
-    top: 578.23px;
-    transform: matrix(0.14, -0.99, 0.99, 0.14, 0, 0);
-}
-.a19{
-    position: absolute;
-    width: 13.35px;
-    height: 43.58px;
-    left: 634px;
-    top: 578.23px;
-    transform: matrix(0.14, -0.99, 0.99, 0.14, 0, 0);
+    width: 961px;
 }
 
-.About{
-    position: absolute;
+.AboutMe{
     width: 1328px;
     height: 1890px;
-    left: 200px;
-    top: 813px;
+    margin-top: 140px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.ten{
+.left{
+    width: 1133px;
+    margin: 0px;
     position: absolute;
-    background: #E9CEA852;
+}
+
+.right{
+    position: absolute;
+    width: 195px;
+    margin-left: 1133px;
+}
+
+.n2{
+    width: 1133px;
+    height: 70px;
+}
+
+.n3{
+    height: 1062px;
+    width: 961px;
+    margin-top: 100px;
+}
+
+.t1{
+    height: 86px;
+    width: 961px;
+    margin-bottom: 30px;
+}
+
+.b1{
+    position: absolute;
+}
+
+.b2{
+    position: absolute;
+    margin-left: 57.7px;
+    width: 1026px;
+    height: 86px;
+}
+
+.parag{
+    height: 20px;
+    width: 20.98px;
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: 13px;
+    border: 4px solid #7B84A3;
+    border-radius: 50%;
+}
+
+.t2{
+    height: 45px;
+    width: 1100px;
+    margin-bottom: 30px;
+}
+
+.margin100{
+    margin-top: 100px;
+    width: 600px;
+    margin-bottom: 0px;
+}
+.button2{
+    margin-top: 100px;
+}
+p{
+    margin: 0px;
+}
+
+.n5{
+    height: 228px;
+}
+
+.menutext2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+
+    position: absolute;
+    width: 195px;
+    height: 374px;
+    margin-top: 1516px;
+}
+
+.ten1{
+    position: absolute;
+    width: 746px;
     height: 865px;
-    width: 737px;
-    left: 1283px;
-    top: 224px;
-    border-radius: 0px;
+    margin-top: 450px;
+    margin-left: 800px;
     background: rgba(233, 206, 168, 0.32);
     filter: blur(149px);
+}
+
+
+.approach{
+    width: 1328px;
+    height: 1890px;
+    margin-top: 140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.leftApproach{
+    width: 1133px;
+    margin: 0px;
+    position: absolute;
+}
+
+.rightApproach{
+    position: absolute;
+    width: 195px;
+    margin-left: 1133px;
+}
+
+.ten2{
+
+    position: absolute;
+    width: 1676.35px;
+    height: 1070.03px;
+    margin-top: 450px;
+    margin-left: 230px;
+
+    /* тень ж */
+
+    background: rgba(244, 189, 0, 0.12);
+    filter: blur(184.5px);
+    transform: rotate(-123.14deg);
+}
+
+.blokApproach{
+    margin-top: 50px;
+    width: 1100px;
+}
+
+.line{
+    margin-top: 50px;
+    
+    width: 1100px;
+    height: 0px;
+
+    /* text */
+
+    border: 1px solid #1F180E;
+    transform: rotate(0.34deg);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.b3{
+    text-align: right;
+}
+
+.data1{
+    font-family: Arial;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.24em;
+    
+}
+
+.margin50{
+    margin-bottom: 50px;
+}
+
+.menutext3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+
+    position: absolute;
+    width: 195px;
+    height: 374px;
+    margin-top: 1450px;
+}
+
+.ten3{
+
+    position: absolute;
+    width: 1323.01px;
+    height: 1916.77px;
+    margin-top: 450px;
+    margin-left: 230px;
+
+    /* тень ж */
+
+    background: rgba(233, 206, 168, 0.32);
+    filter: blur(184.5px);
+    transform: rotate(159.37deg);
+}
+
+.work{
+    width: 1328px;
+    height: 1890px;
+    margin-top: 140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box{
+    margin-top: 50px;
+    height: 150px;
+}
+
+.box1{
+    margin-top: 50px;
+    height: 68px;
+}
+
+.box2{
+    margin-top: 50px;
+    height: 84px;
+}
+
+.boxleft{
+    box-sizing: border-box;
+    position: absolute;
+    width: 510px;
+    height: 150px;
+    border: 1px solid #000000;
+}
+
+.boxright{
+    margin-left: 566px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 510px;
+    height: 150px;
+    border: 1px solid #000000;
+}
+
+.data3{
+    margin-left: 35px;
+    margin-top: 15px;
+    font-family: Arial;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.24em;
+}
+
+.shir{
+    height: 68px;
+}
+
+.shir01{
+    height: 84px;
+}
+
+.shir1{
+    margin-top:10.46px;
+}
+
+.marginshir1{
+    margin-left: 90px;
+}
+
+.marginshir2{
+    margin-left: 104px;
+}
+
+.marginshir3{
+    margin-left: 55px;
+}
+
+.marginshir4{
+    margin-left: 90px;
+    width: 300px;
+}
+
+.Align{
+    text-align: center;
+}
+
+.cost{
+    height: 50px;
+}
+
+.button4{
+    margin-top: 0px;
+}
+.button5{
+    margin-top: 0px;
+    margin-left: 285px;
+}
+
+.margin690{
+    margin-top: 690px;
 }
