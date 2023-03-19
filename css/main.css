@@ -802,10 +802,17 @@ p{
   .photo3{
     display: none;
   }
+
+  .photo4{
+    display: none;
+  }
   .greentext1{
     display: none;
   }
   .emo{
+    display: none;
+  }
+  .emo1{
     display: none;
   }
 
@@ -1085,4 +1092,246 @@ p{
         height: 36px;
         margin-bottom: 20px;
     }
+  }
+
+  @media screen and (max-width: 450px) {
+    header{
+        width: 375px;
+        Height: 812px;
+        margin-left: 0px;
+    }
+
+    .photo3{
+        display: none;
+      }
+    
+    .photo4{
+      display: block;
+      position: absolute;
+      Width: 252.25px;
+      Height: 420.36px;
+      margin-left: 122px;
+      margin-top: 120px;
+    }
+
+    h1 {
+        font-size: 60px;
+        height: auto;
+        width: 329px;
+        line-height: 96%;
+        letter-spacing: 0.03em;
+        margin-left: 20px;
+    }
+    .lefttext {
+        text-align: left;
+    }
+
+    .emo{
+        display: none;
+    }
+
+    .emo1 {
+        display: block;
+        position: absolute;
+        width: 187px;
+        height: 200px;
+        margin-top: 155px;
+        margin-left: 20px;
+    }
+    .pidzagolovok1 {
+        position: absolute;
+        top: 564px;
+        display: block;
+        width: 335px;
+        height: 99px;
+        margin-left: 20px;
+    }
+    h2 {
+        font-size: 30px;
+        font-weight: 500;
+        width: 335px;
+        height: 99px;
+    }
+
+    .buttonInHeader {
+        top: 713px;
+        margin-top: 0px;
+        margin-left: 73px;
+    }
+    .textemo2{
+        font-family: Alumni Sans;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 33px;
+        letter-spacing: 0.14em;
+        font-variant: small-caps;
+        margin: 0px;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .AboutMe {
+        margin-top: 0px;
+        width: 375px;
+        height: 1079px;
+        margin-left: 0px;
+    }
+    .left {
+        width: 335px;
+        height: 775px;
+        margin-left: 20px;
+        position: absolute;
+    }
+    .n3 {
+        width: 335px;
+        height: 716px;
+        margin-top: 0px;
+    }
+    .b2 {
+        margin-left: 36px;
+        width: 299px;
+        height: 50px;
+    }
+    .t1 {
+        width: 334px;
+        height: 47px;
+        margin-bottom: 10px;
+    }
+    .t3 {
+        height: 70px;
+    }
+    .t4 {
+        height: 70px;
+    }
+    .t2 {
+        margin-bottom: 10px;
+        height: 55px;
+        width: 334px;
+    }
+    .t22{
+        height: 130px;
+        width: 334px;
+    }
+    .margin100 {
+        margin-top: 0px;
+    }
+
+    .button2 {
+        margin-top: 50px;
+        margin-left: 53px;
+    }
+
+    .n5 {
+        width: 300px;
+        height: 106px;
+    }
+    .approach {
+        width: 375px;
+        height: 1181px;
+        margin-left: 19px;
+    }
+    .leftApproach {
+        width: 375px;
+        margin-left: 0px;
+    }
+    .blokApproach {
+        margin-top: 15px;
+        width: 335px;
+    }
+    .margin50 {
+        margin-bottom: 15px;
+        font-style: italic;
+        font-weight: 700;
+    }
+
+    .coll1 {
+        height: 102px;
+    }
+
+    .coll2 {
+        height: 170px;
+    }
+
+    .coll3 {
+        height: 170px;
+    }
+
+    .coll5 {
+        height: 170px;
+    }
+
+    .work {
+        width: 375px;
+        height: 788px;
+        margin-top: 0px;
+        margin-left: 19px;
+    }
+    .n2{
+        margin-left: 0px;
+    }
+    .textwork {
+        font-family: Arial;
+        font-style: italic;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 15.4px;
+        letter-spacing: 0.07em;
+    }
+
+    .box {
+        margin-top: 20px;
+        width: 157px;
+        height: 149px;
+    }
+    .boxleft {
+        width: 157px;
+        height: 149px;
+    }
+    .boxright {
+        width: 157px;
+        height: 149px;
+        margin-left: 178px;
+    }
+    .data3{
+        letter-spacing: 0.07em;
+    }
+
+    .box1 {
+        margin-top: 20px;
+        width: 157px;
+        height: 57px;
+    }
+    .shir {
+        height: 57px;
+    }
+
+    .box2 {
+        margin-top: 20px;
+        width: 157px;
+        height: 118px;
+    }
+    .shir01 {
+        height: 118px;
+    }
+    .marginshir4 {
+        width: 157px; 
+    }
+    .cost {
+        margin-top: 20px;
+        width: 157px;
+        height: 36px;
+    }
+    .button4{
+        position: relative;
+        margin-left: 53px;
+    }
+    .button5{
+        position: relative;
+        margin-left: 53px;
+    }
+    .line {
+
+        width: 335px;
+    }
+    
   }
