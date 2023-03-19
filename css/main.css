@@ -191,11 +191,12 @@ a:active{
 .btn1:hover{
     background-color: #46AF91;
     transition: 0.4s;
+    color:#fbfbfb;
 }
 
 .btn1:active{
     background-color: #46AF91;
-    color:#fbfbfb;
+    color:#000000;
     transition-duration: 0.1s;
 }
 
@@ -722,10 +723,13 @@ p{
     color: #000000;
 }
 .line1{
-    border: 5px solid #46AF91;
-    margin-top: 2px;
+    border: 2.5px solid #46AF91;
+    margin-top: 6px;
     position: absolute;
-    width: 212px;
+    width: 230px;
+}
+.line2{
+    width: 230px;
 }
 
 .margin690{
@@ -790,4 +794,60 @@ p{
   .pozition{
     display: flex;
     flex-direction: row;
+  }
+  .photo3{
+    display: none;
+  }
+  .greentext1{
+    display: none;
+  }
+
+  @media screen and (max-width: 1300px) {
+    body {	
+        background: #ffffff;
+    }
+    h1{
+        font-size: 60px;
+        height: auto;
+    }
+    h2{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    header{
+        margin-top: 0px;
+        height: auto;
+    }
+    .greentext1{
+        display: block;
+      }
+    .menu{
+        display: none;
+    }
+
+    .pidzagolovok{
+        display: none;
+    }
+    .pidzagolovok1{
+        position: absolute;
+        top: 180px;
+        display: block;
+        width: 405px;
+
+    }
+    .buttonInHeader{
+        top: 291px;
+        margin-top: 0px;
+    }
+    .photo1{
+        display: none;
+    }
+    .photo{
+        display: none;
+    }
+    .photo3{
+        display: block;
+        margin-left: 399.95px;
+        margin-top: 49.01px;
+      }
   }
