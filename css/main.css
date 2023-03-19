@@ -75,8 +75,8 @@ h3{
     font-size: 22px;
     font-style: italic;
     font-weight: 700;
-    line-height: 45px;
-    letter-spacing: 0.24em;
+    line-height: 30px;
+    letter-spacing: 0.22em;
 }
 
 
@@ -503,7 +503,7 @@ p{
 
 .approach{
     width: 1328px;
-    height: 1890px;
+    height: 1750px;
     margin-top: 140px;
     margin-left: auto;
     margin-right: auto;
@@ -575,6 +575,8 @@ p{
 
 .margin50{
     margin-bottom: 50px;
+    font-style: italic;
+    font-weight: 700;
 }
 
 .menutext3{
@@ -587,7 +589,7 @@ p{
     position: absolute;
     width: 195px;
     height: 374px;
-    margin-top: 1450px;
+    margin-top: 1310px;
 }
 
 .ten3{
@@ -608,7 +610,7 @@ p{
 .work{
     width: 1328px;
     height: 1050px;
-    margin-top: 140px;
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -685,6 +687,10 @@ p{
     width: 300px;
 }
 
+    .textbutton{
+        margin-left: 10px;
+    }
+
 .Align{
     text-align: center;
 }
@@ -733,7 +739,7 @@ p{
 }
 
 .margin690{
-    margin-top: 690px;
+    margin-top: 580px;
 }
 
 
@@ -809,14 +815,21 @@ p{
     h1{
         font-size: 60px;
         height: auto;
+        width: 329px;
+        line-height: 96%;
+        letter-spacing: 0.03em;
+        margin-left: 40px;
     }
     h2{
         font-size: 30px;
         font-weight: 500;
+        width: 405px;
+        height: 80px;
     }
     header{
-        margin-top: 0px;
-        height: auto;
+        margin-top: 30px;
+        width: 812px;
+        height: 375px;
     }
     .greentext1{
         display: block;
@@ -827,17 +840,20 @@ p{
 
     .pidzagolovok{
         display: none;
+        
     }
     .pidzagolovok1{
         position: absolute;
-        top: 180px;
+        top: 150px;
         display: block;
         width: 405px;
+        margin-left: 40px;
 
     }
     .buttonInHeader{
-        top: 291px;
+        top: 261px;
         margin-top: 0px;
+        margin-left: 40px;
     }
     .photo1{
         display: none;
@@ -846,8 +862,220 @@ p{
         display: none;
     }
     .photo3{
+        position: absolute;
         display: block;
         margin-left: 399.95px;
-        margin-top: 49.01px;
+        margin-top: 11px;
       }
+    .AboutMe{
+        margin-top: 0px;
+        width: 812px;
+        height: 943px;
+    }
+    h3{
+        font-family: Arial;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0.14em;
+        text-align: left;
+    }
+    .lefttext{
+        text-align: right; 
+    }
+    .data{
+        font-family: Arial;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0.14em;
+    }
+    .parag {
+        margin-top: 0px;
+    }
+    .n2 {
+        width: 250px;
+        height: 40px;
+        margin-left: 8px;
+        margin-top: 19px;
+    }
+    .n3 {
+        height: 525px;
+        width: 700px;
+        margin-top: 20px;
+}
+    .t1 {
+        height: 30px;
+        width: 700px;
+        margin-bottom: 15px;
+    }
+    .right{
+        display: none;
+    }
+    .left {
+        height: 903px;
+        width: 693px;
+        margin-left: 40px;
+        position: absolute;
+    }
+    .b2{
+        margin-left: 57.7px;
+        width: 630px;
+        height: 30px;
+    }
+    .t3{
+        height: 60px;
+    }
+    .ten1{
+        display: none;
+    }
+
+    .t2{
+        margin-bottom: 15px;
+        height: 30px;
+        width: 700px;
+    }
+    .margin100 {
+        margin-top: 20px;
+    }
+    .n4{
+        width: 205px;
+        height: 78px;        
+    }
+
+    .n5{
+        width: 300px;
+        height: 130px;        
+    }
+    .button2{
+        margin-top: 30px;
+    }
+    .emo{
+        position: absolute;
+        width: 175px;
+        height: 83px; 
+        margin-top: 103px;
+        margin-left: 625px;
+
+    }
+
+    .rightApproach{
+        display: none;
+    }
+
+    .ten2{
+        display: none;
+    }
+
+    .approach {
+        width: 812px;
+        height: 942px;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .leftApproach{
+        margin-left: 40px;
+    }
+    .blokApproach {
+        margin-top: 15px;
+        width: 697px;
+    }
+    .line {
+        margin-top: 15px;
+        width: 700px;
+    }
+    .margin50 {
+        margin-bottom: 30px;
+        font-style: italic;
+        font-weight: 700;
+    }
+    .b8{
+        text-align: right;
+    }
+    .coll1{
+        height: 56px;
+    }
+
+    .coll2{
+        height: 121px;
+    }
+
+    .coll3{
+        height: 116px;
+    }
+
+    .coll3{
+        height: 115px;
+    }
+
+    .coll4{
+        height: 88px;
+    }
+
+    .coll5{
+        height: 116px;
+    }
+
+    .ten3{
+        display: none;
+    }
+
+    .work{
+        width: 812px;
+        height: 594px;
+        margin-top: 0px;
+    }
+    .blockwork{
+        margin-top: 20px;
+    }
+
+    .textwork{
+        font-style: italic;
+        font-weight: 700;
+    }
+
+    .data3{
+        font-family: 'Arial';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20.8px;
+        letter-spacing: 0.14em;
+        margin-left: 7px;
+        margin-top: 7px;
+    }
+    .box {
+        margin-top: 20px;
+        height: 90px;
+    }
+    .boxleft {
+        width: 345px;
+        height: 90px;
+    }
+    .boxright {
+        width: 345px;
+        height: 90px;
+        margin-left: 409px;
+    }
+    .box1 {
+        margin-top: 20px;
+        height: 40px;
+    }
+    .shir{
+        height: 40px;
+    }
+    .shir1 {
+        text-align: center;
+    }
+
+    .box2 {
+        margin-top: 20px;
+        height: 59px;
+    }
+
+    .shir01{
+        height: 59px;
+    }
   }
