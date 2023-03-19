@@ -1,14 +1,15 @@
+
 body {	
-font-family: 'Alumni Sans';
-font-size: 68px;
-font-weight: 500;
-line-height: 75px;
-letter-spacing: 0.08em;
-text-align: left;
-position: relative;
-height: auto;
-overflow-x: hidden;
-background: linear-gradient(179.94deg, #EFEFEF 0.06%, #EDE2D2 191.5%);
+    font-family: 'Alumni Sans';
+    font-size: 68px;
+    font-weight: 500;
+    line-height: 75px;
+    letter-spacing: 0.08em;
+    text-align: left;
+    position: relative;
+    height: auto;
+    overflow-x: hidden;
+    background: linear-gradient(179.94deg, #EFEFEF 0.06%, #EDE2D2 191.5%);
 }
 
 
@@ -18,7 +19,7 @@ header{
     flex-direction: row;
     width: 1328px;
     height: 593px;
-    margin-top: 80px;
+    margin-top: 45px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -60,13 +61,13 @@ h2{
 }
 
 h3{
-font-family: Arial;
-font-size: 20px;
-font-weight: 400;
-line-height: 28px;
-letter-spacing: 0.24em;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.24em;
 
-margin-top: 0px;
+    margin-top: 0px;
 }
 
 .data{
@@ -93,7 +94,6 @@ h4{
 h5{
     font-family: 'Alumni Sans';
     font-style: normal;
-    font-weight: 400;
     font-size: 22px;
     line-height: 38px;
     letter-spacing: 0.25em;
@@ -122,26 +122,12 @@ h6{
     color:#46AF91; 
 }
 
-button{
+.btn1{
     box-sizing: border-box;
     position: absolute;
     width: 230px;
     height: 50px;
     border: 5px solid #46AF91;
-}
-button:active{
-    background-color: #46AF91;
-}
-.buttonInHeader{
-    margin-top: 533px;
-}
-
-.textbutton{
-    position: absolute;
-    width: 136px;
-    height: 26px;
-    left: 47px;
-    top: 11px;
     font-family: 'Alumni Sans';
     font-style: normal;
     font-weight: 700;
@@ -150,14 +136,81 @@ button:active{
     letter-spacing: 0.25em;
     font-variant: small-caps;
     color: #000000;
-    top:7px;
+    margin-bottom: 0px;
+    background: transparent;
+}
+
+.buttonmenu{
+    padding: 0px;
+    border: 0px;
+    font-weight: 400;
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-size: 22px;
+    line-height: 38px;
+    letter-spacing: 0.25em;
+    font-variant: small-caps;
+    margin: 0px;
+    background: transparent;
+}
+a{
+    padding: 0px;
+    border: 0px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-size: 22px;
+    line-height: 38px;
+    letter-spacing: 0.25em;
+    font-variant: small-caps;
+    margin: 0px;
+}
+a:hover{
+    font-weight: 700;
+}
+
+a:active{
+    color: #46AF91;
+}
+
+.buttonmenu:hover{
+    padding: 0px;
+    border: 0px;
+    font-weight: 700;
+}
+
+.buttonmenu:active{
+    padding: 0px;
+    border: 0px;
+    font-weight: 700;
+    color: #46AF91;
+}
+
+.btn1:hover{
+    background-color: #46AF91;
+    transition: 0.4s;
+}
+
+.btn1:active{
+    background-color: #46AF91;
+    color:#fbfbfb;
+    transition-duration: 0.1s;
+}
+
+
+
+.buttonInHeader{
+    margin-top: 533px;
+    background: transparent;
 }
 
 .menu{
     position: absolute;
     width: 195px;
     height: 593px;
-    margin-left: 1143px;
+    margin-left: 1133px;
     margin-top: 0px;
 }
 
@@ -177,10 +230,11 @@ button:active{
     width: 40px;
     left: 0px;
     top: 26px;
-    border-radius: 0px;
+    border-radius: 0px;    
+}
+.imgAlone:active{
+    color: #46AF91;
 
-    
-    
 }
 .imgTeleK{
     width: 40px;
@@ -229,19 +283,20 @@ button:active{
 .photo1{
     position: absolute;
     margin-left: 640px;
+    margin-top: 25px;
     
 }
 .photo{
     box-sizing: border-box;
 
-position: absolute;
-width: 406.29px;
-height: 540.27px;
-margin-left: 643.69px;
-margin-top: 52.44px;
+    position: absolute;
+    width: 406.29px;
+    height: 540.27px;
+    margin-left: 643.69px;
+    margin-top: 52.44px;
 
-background: url(.png);
-transform: matrix(1, 0, 0, 1, 0, 0);
+    background: url(.png);
+    transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
 .imgAlone{   
@@ -538,9 +593,9 @@ p{
 
     position: absolute;
     width: 1323.01px;
-    height: 1916.77px;
-    margin-top: 450px;
-    margin-left: 230px;
+    height: 700px;
+    margin-top: 150px;
+    margin-left: 130px;
 
     /* тень ж */
 
@@ -551,7 +606,7 @@ p{
 
 .work{
     width: 1328px;
-    height: 1890px;
+    height: 1050px;
     margin-top: 140px;
     margin-left: auto;
     margin-right: auto;
@@ -639,12 +694,100 @@ p{
 
 .button4{
     margin-top: 0px;
+    background: transparent;
 }
 .button5{
     margin-top: 0px;
     margin-left: 285px;
+    background: transparent;
+    border: 0px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 230px;
+    height: 50px;
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.25em;
+    font-variant: small-caps;
+    color: #000000;
+    margin-bottom: 0px;
+}
+.button5:hover{
+    color: #46AF91;
+}
+.button5:active{
+    color: #000000;
+}
+.line1{
+    border: 5px solid #46AF91;
+    margin-top: 2px;
+    position: absolute;
+    width: 212px;
 }
 
 .margin690{
     margin-top: 690px;
 }
+
+
+.change-photos {
+    width: 30px;
+    height: 30px;
+  }
+  .change-photos:hover {
+    width: 30px;
+    height: 30px;
+  }
+
+  .change-photos .change-photo img {
+
+    object-fit: cover;
+  }
+  
+  /* Сразу скрываем вторую картинку */
+  .change-photos .change-photo:nth-of-type(2) {
+    display: none;
+  }
+  .change-photos .change-photo:nth-of-type(3) {
+    display: none;
+  }
+  
+  /* При наведении курсора на родительский класс change-photos первую картинку скрываем, а вторую показываем */
+  .change-photos:hover .change-photo:nth-of-type(1) {
+    display: none;
+  }
+  
+  .change-photos:hover .change-photo:nth-of-type(2) {
+    display: block;
+  }
+
+  .change-photos:hover .change-photo:nth-of-type(3) {
+    display: none;
+  }
+  
+  .change-photos:active .change-photo:nth-of-type(1) {
+    display: none;
+  }
+  
+  .change-photos:active .change-photo:nth-of-type(2) {
+    display: none;
+  }
+
+  .change-photos:active .change-photo:nth-of-type(3) {
+    display: block;
+  }
+  
+  .change-photos:active {
+    cursor: pointer;
+  }
+
+  .marleft{
+    margin-left: 23px;
+  }
+  .pozition{
+    display: flex;
+    flex-direction: row;
+  }
