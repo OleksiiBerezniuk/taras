@@ -807,6 +807,9 @@ p{
   .greentext1{
     display: none;
   }
+  .emo{
+    display: none;
+  }
 
   @media screen and (max-width: 1300px) {
     body {	
@@ -952,6 +955,7 @@ p{
         margin-top: 30px;
     }
     .emo{
+        display: block;
         position: absolute;
         width: 175px;
         height: 83px; 
