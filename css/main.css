@@ -1,6 +1,7 @@
 
 body {	
-    font-family: Alumni Sans,Roboto,Inter,Arial,Helvetica,sans-serif;
+    font-family: 'Alumni Sans',Roboto,Inter,Arial,Helvetica,sans-serif;
+    font-family: 'Alumni Sans', sans-serif;
     font-size: 68px;
     font-weight: 500;
     line-height: 75px;
@@ -81,7 +82,7 @@ h3{
 
 
 h4{
-    font-family: Alumni Sans,Roboto,Inter,Arial,Helvetica,sans-serif;
+    font-family: 'Alumni Sans',Roboto,Inter,Arial,Helvetica,sans-serif;
     font-size: 22px;
     font-weight: 700;
     line-height: 38px;
@@ -92,7 +93,7 @@ h4{
 }
 
 h5{
-    font-family: Alumni Sans,Roboto,Inter,Arial,Helvetica,sans-serif;
+    font-family: 'Alumni Sans',Roboto,Inter,Arial,Helvetica,sans-serif;
     font-style: normal;
     font-size: 22px;
     line-height: 38px;
@@ -128,7 +129,7 @@ h6{
     width: 230px;
     height: 50px;
     border: 5px solid #46AF91;
-    font-family: Alumni Sans,Roboto,Inter,Arial,Helvetica,sans-serif;
+    font-family: 'Alumni Sans',Roboto,Inter,Arial,Helvetica,sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -144,7 +145,7 @@ h6{
     padding: 0px;
     border: 0px;
     font-weight: 400;
-    font-family: Alumni Sans,Roboto,Inter,Arial,Helvetica,sans-serif;
+    font-family: 'Alumni Sans',Roboto,Inter,Arial,Helvetica,sans-serif;
     font-style: normal;
     font-size: 22px;
     line-height: 38px;
@@ -159,7 +160,7 @@ a{
     text-decoration: none;
     color: #000000;
     font-weight: 400;
-    font-family: Alumni Sans,Roboto,Inter,Arial,Helvetica,sans-serif;
+    font-family: 'Alumni Sans',Roboto,Inter,Arial,Helvetica,sans-serif;
     font-style: normal;
     font-size: 22px;
     line-height: 38px;
@@ -384,7 +385,7 @@ a:active{
 }
 
 .text{
-    font-family: Alumni Sans,Roboto,Inter,Arial,Helvetica,sans-serif;
+    font-family: 'Alumni Sans',Roboto,Inter,Arial,Helvetica,sans-serif;
     font-size: 32px;
     font-weight: 300;
     line-height: 45px;
@@ -710,7 +711,7 @@ p{
     position: absolute;
     width: 230px;
     height: 50px;
-    font-family: Alumni Sans,Roboto,Inter,Arial,Helvetica,sans-serif;
+    font-family: 'Alumni Sans',Roboto,Inter,Arial,Helvetica,sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -1159,7 +1160,7 @@ p{
         margin-left: 73px;
     }
     .textemo2{
-        font-family: Alumni Sans,Roboto,Inter,Arial,Helvetica,sans-serif;
+        font-family: 'Alumni Sans',Roboto,Inter,Arial,Helvetica,sans-serif;
         font-style: normal;
         font-weight: 500;
         line-height: 33px;
@@ -1230,7 +1231,7 @@ p{
         height: 1181px;
         margin-left: 19px;
     }
-    
+
     .leftApproach {
         width: 375px;
         margin-left: 0px;
