@@ -1,6 +1,5 @@
 
 body {	
-    font-family: 'Alumni Sans',Roboto,Inter,Arial,Helvetica,sans-serif;
     font-family: 'Alumni Sans', sans-serif;
     font-size: 68px;
     font-weight: 500;
@@ -20,10 +19,11 @@ header{
     flex-direction: row;
     width: 1328px;
     height: 593px;
-    margin-top: 45px;
+    margin-top: 80px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 150px;
 }
 
 h1 {
@@ -40,7 +40,6 @@ h1 {
     
 /* or 165px */
     letter-spacing: 0.04em;
-    font-variant: small-caps;
 /* text */
     color: #1F180E;
     margin: 0px;
@@ -56,7 +55,7 @@ h2{
     line-height: 110%;
 /* or 75px */
     letter-spacing: 0.08em;
-    font-variant: small-caps;
+
     color: #1F180E;
     margin: 0px;
 }
@@ -82,7 +81,7 @@ h3{
 
 
 h4{
-    font-family: 'Alumni Sans',Roboto,Inter,Arial,Helvetica,sans-serif;
+    font-family: 'Alumni Sans';
     font-size: 22px;
     font-weight: 700;
     line-height: 38px;
@@ -93,12 +92,11 @@ h4{
 }
 
 h5{
-    font-family: 'Alumni Sans',Roboto,Inter,Arial,Helvetica,sans-serif;
+    font-family: 'Alumni Sans';
     font-style: normal;
     font-size: 22px;
     line-height: 38px;
     letter-spacing: 0.25em;
-    font-variant: small-caps;
     margin: 0px;
 }
 
@@ -109,6 +107,14 @@ h6{
     line-height: 36px;
     letter-spacing: 0.25em;
     text-align: left
+}
+
+a{
+    text-decoration: none;   
+}
+
+button{
+    padding: 0px;
 }
 
 .pidzagolovok{
@@ -127,15 +133,14 @@ h6{
     box-sizing: border-box;
     position: absolute;
     width: 230px;
-    height: 50px;
+    height: 40px;
     border: 5px solid #46AF91;
     font-family: 'Alumni Sans',Roboto,Inter,Arial,Helvetica,sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 26px;
     letter-spacing: 0.25em;
-    font-variant: small-caps;
     color: #000000;
     margin-bottom: 0px;
     background: transparent;
@@ -150,11 +155,10 @@ h6{
     font-size: 22px;
     line-height: 38px;
     letter-spacing: 0.25em;
-    font-variant: small-caps;
     margin: 0px;
     background: transparent;
 }
-a{
+.amenu{
     padding: 0px;
     border: 0px;
     text-decoration: none;
@@ -165,7 +169,6 @@ a{
     font-size: 22px;
     line-height: 38px;
     letter-spacing: 0.25em;
-    font-variant: small-caps;
     margin: 0px;
 }
 a:hover{
@@ -204,7 +207,7 @@ a:active{
 
 
 .buttonInHeader{
-    margin-top: 533px;
+    margin-top: 553px;
     background: transparent;
 }
 
@@ -278,7 +281,7 @@ a:active{
     font-size: 16px;
     line-height: 18px;
     letter-spacing: 0.25em;
-    font-variant: small-caps;
+
     color: #000000;
     margin-left: 66px;
 }
@@ -329,7 +332,6 @@ a:active{
     font-size: 16px;
     line-height: 18px;
     letter-spacing: 0.25em;
-    font-variant: small-caps;
 }
 .menutext{
     display: flex;
@@ -401,9 +403,10 @@ a:active{
 .AboutMe{
     width: 1328px;
     height: 1890px;
-    margin-top: 140px;
+    margin-top: 200px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 150px;
 }
 
 .left{
@@ -504,10 +507,11 @@ p{
 
 .approach{
     width: 1328px;
-    height: 1750px;
-    margin-top: 140px;
+    height: 1724px;
+    margin-top: 200px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 150px;
 }
 
 .leftApproach{
@@ -520,6 +524,11 @@ p{
     position: absolute;
     width: 195px;
     margin-left: 1133px;
+}
+
+.position{
+    position:static;
+    top: 200px;
 }
 
 .ten2{
@@ -611,9 +620,10 @@ p{
 .work{
     width: 1328px;
     height: 1050px;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 150px;
 }
 
 .box{
@@ -717,7 +727,6 @@ p{
     font-size: 22px;
     line-height: 26px;
     letter-spacing: 0.25em;
-    font-variant: small-caps;
     color: #000000;
     margin-bottom: 0px;
 }
@@ -823,8 +832,8 @@ p{
     }
     h1{
         font-size: 60px;
-        height: auto;
-        width: 329px;
+        height: 131px;
+        width: 248px;
         line-height: 96%;
         letter-spacing: 0.03em;
         margin-left: 40px;
@@ -834,11 +843,13 @@ p{
         font-weight: 500;
         width: 405px;
         height: 80px;
+        letter-spacing: 0.14em;
     }
     header{
         margin-top: 30px;
         width: 812px;
-        height: 375px;
+        height: 350px;
+        margin-bottom: 0px;
     }
     .greentext1{
         display: block;
@@ -860,7 +871,7 @@ p{
 
     }
     .buttonInHeader{
-        top: 261px;
+        top: 271px;
         margin-top: 0px;
         margin-left: 40px;
     }
@@ -880,6 +891,7 @@ p{
         margin-top: 0px;
         width: 812px;
         height: 943px;
+        margin-bottom: 0px;
     }
     h3{
         font-family: Arial;
@@ -984,6 +996,7 @@ p{
         margin-top: 50px;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 0px;
     }
     .leftApproach{
         margin-left: 40px;
@@ -1036,6 +1049,7 @@ p{
         width: 812px;
         height: 594px;
         margin-top: 0px;
+        margin-bottom: 0px;
     }
     .blockwork{
         margin-top: 20px;
@@ -1100,6 +1114,7 @@ p{
         width: 375px;
         Height: 812px;
         margin-left: 0px;
+        margin-bottom: 0px;
     }
 
     .photo3{
@@ -1160,12 +1175,11 @@ p{
         margin-left: 73px;
     }
     .textemo2{
-        font-family: 'Alumni Sans',Roboto,Inter,Arial,Helvetica,sans-serif;
+        font-family: 'Alumni Sans';
         font-style: normal;
         font-weight: 500;
         line-height: 33px;
         letter-spacing: 0.14em;
-        font-variant: small-caps;
         margin: 0px;
         font-size: 30px;
         font-weight: 500;
@@ -1176,6 +1190,7 @@ p{
         width: 375px;
         height: 1079px;
         margin-left: 0px;
+        margin-bottom: 0px;
     }
     .left {
         width: 335px;
@@ -1230,6 +1245,7 @@ p{
         width: 375px;
         height: 1181px;
         margin-left: 19px;
+        margin-bottom: 0px;
     }
 
     .leftApproach {
@@ -1267,6 +1283,7 @@ p{
         height: 788px;
         margin-top: 0px;
         margin-left: 19px;
+        margin-bottom: 0px;
     }
     .n2{
         margin-left: 0px;
