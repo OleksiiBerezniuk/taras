@@ -906,16 +906,12 @@ p{
     margin-left: 50px;
 
 }
-.mainmenubtn:active ~ .opas{
+.dropmenuall.opas1{
     display: block;
     margin-left: -170px;
     transition-duration: 0.1s;
 }
-.mainmenubtn:active::after ~ .opas{
-    display: block;
-    margin-left: -170px;
-    transition-duration: 0.1s;
-}
+
   @media screen and (max-width: 1300px) {
     body {	
         background: #ffffff;
