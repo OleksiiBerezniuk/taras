@@ -825,6 +825,90 @@ p{
   .emo1{
     display: none;
   }
+  .dropmenu{
+    width: 180px;
+    height: 393px;
+  }
+  .dropmenuall{
+    box-sizing: border-box;
+    position: relative;
+    width: 180px;
+    height: 393px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.25em;
+    padding: 0px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-size: 22px;
+    letter-spacing: 0.25em;
+    margin: 0px;
+  }
+  .amenu1{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-size: 22px;
+    letter-spacing: 0.25em;
+    margin-left: 10px;
+    
+  }
+  .setdrop{
+    width: 195px;
+    height: 26px;
+    margin-top: 15px;
+  }
+
+  .linedrop{
+    width: 177px;
+    height: 0px;
+    border: 0.5px solid #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 15px;
+  }
+  .setdropicon{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .mar20{
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+.burger{
+    display: none;
+}
+
+.linemenu{
+    margin-left: 200px;
+    width: 30px;
+    bottom: 75%;
+    border: 3.58333px solid #000000;
+    background-color: #000000;
+    border-radius: 5px;
+    margin-top: 4px;
+}
+.flex{
+    display: none;
+
+}
+
+.opas{
+    margin-left: 40px;
+}
+.mainmenubtn:active ~ .opas{
+    margin-left: -180px;
+    transition-duration: 1s;
+}
 
   @media screen and (max-width: 1300px) {
     body {	
@@ -1356,5 +1440,17 @@ p{
     }
     button {
         padding: 0px;
+    }
+
+    .flex{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .burger{
+        position: absolute;
+        margin-left: 130px;
+        
     }
   }
