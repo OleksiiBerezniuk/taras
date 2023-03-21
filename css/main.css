@@ -904,11 +904,15 @@ p{
 
 .opas{
     margin-left: 40px;
+    display: none;
 }
 .mainmenubtn:active ~ .opas{
-    margin-left: -180px;
-    transition-duration: 1s;
+    display: block;
+    margin-left: -170px;
+    transition-duration: 3s;
 }
+
+
 
   @media screen and (max-width: 1300px) {
     body {	
