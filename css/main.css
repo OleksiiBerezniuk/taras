@@ -932,23 +932,23 @@ button:active{
         height: 799px;
         margin-left: auto;
         margin-right: auto;
+        margin-left: 0px;
     }
     .AboutMe{
         width: 375px;
         height: 980px;
         margin-top: 30px;
+        margin-left: 0px;
     }
     .approach{
         width: 375px;
         height: 1020px;
         margin-top: 30px;
-        margin-left: 20px;
     }
     .work{
         width: 375px;
         height: 460px;
         margin-top: 30px;
-        margin-left: 20px;
     }
 
     .photo{
@@ -999,10 +999,10 @@ button:active{
     }
 
     .menu-btn {
-        margin-left: 350px;
+        margin-left: 325px;
     }
     .dropmenuall {
-        margin-left: 205px;
+        margin-left: 180px;
     }
 
     .n3 {
