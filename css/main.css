@@ -960,7 +960,7 @@ button:active{
     .AboutMe{
         width: 375px;
         height: 950px;
-        margin-top: 70px;
+        margin-top: 90px;
         margin-left: 0px;
     }
     .approach{
@@ -971,7 +971,7 @@ button:active{
     .work{
         width: 375px;
         height: 460px;
-        margin-top: 80px;
+        margin-top: 60px;
     }
 
     .photo{
