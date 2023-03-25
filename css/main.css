@@ -717,18 +717,18 @@ button:active{
     }
     .AboutMe{
         width: 812px;
-        height: 920px;
+        height: 970px;
         margin-top: 115px;
     }
     .approach{
         width: 812px;
-        height: 942px;
-        margin-top: 115px;
+        height: 992px;
+        margin-top: 65px;
     }
     .work{
         width: 812px;
         height: 460px;
-        margin-top: 110px;
+        margin-top: 160px;
     }
 
     .left{
