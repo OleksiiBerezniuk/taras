@@ -161,7 +161,7 @@ button{
 
 button:hover{
     background: #22676CCC;
-    border: 4px solid #22676CCC;
+    border: 0px solid #22676CCC;
 }
 button:hover .textbutton{
     color: #FBFBFB; 
@@ -489,7 +489,7 @@ button:active{
 }
 .dropmenuall.active {
 	transform: translateX(0);
-    margin-left: 160px;
+    margin-left: 182px;
 }
 
 .menumenu{
@@ -617,6 +617,7 @@ button:active{
   transform: translate(-50%, 0%) rotate(-45deg); 
 }
 
+
   @media screen and (max-width: 1400px) {
     .rightApproach{
         margin-left: 1110px;
@@ -627,6 +628,12 @@ button:active{
     body{
         background: #FFFFFF;
     }
+
+    .content{
+        background-color: rgba(0, 0, 0, 0.25);
+        transition: background-color 0.5s ease, color 0.5s ease;
+    }
+
 
     .linedrop56{
         margin-left: -15px;
@@ -939,6 +946,7 @@ button:active{
         margin-left: auto;
         margin-right: auto;
         margin-left: 0px;
+        
     }
     .AboutMe{
         width: 375px;
@@ -968,7 +976,7 @@ button:active{
     .photo4{
         display: block;
         margin-top: 189px;
-        margin-left: -253px;
+        margin-left: -248px;
     }
 
     .left{

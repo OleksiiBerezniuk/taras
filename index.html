@@ -13,7 +13,7 @@
 	<script type="text/javascript" src="script.js"></script>
 </head>
 
-<body>
+<body class="over">
     
    <div class="menumobhead">
         <div class="pozitionbtn">
@@ -38,7 +38,7 @@
                     <div class="linedrop"></div>
                     
                     <div class="setdrop">
-                        <a href="#AboutMe" class="mobmenu">
+                        <a href="#AboutMe" class="mobmenu mobmenu01">
                             ПРО МЕНЕ
                         </a>
                     </div>
@@ -46,7 +46,7 @@
                     <div class="linedrop"></div>
                 
                     <div class="setdrop">
-                        <a href="#approach" class="mobmenu">
+                        <a href="#approach" class="mobmenu mobmenu02">
                             МІЙ ПІДХІД
                         </a>
                     </div>
@@ -54,7 +54,7 @@
                     <div class="linedrop"></div>
                 
                     <div class="setdrop">
-                        <a href="#work" class="mobmenu">
+                        <a href="#work" class="mobmenu mobmenu03">
                             ЯК ПРАЦЮЮ
                         </a>
                     </div>
@@ -63,7 +63,7 @@
                 
                 
                     <div class="setdrop">
-                        <a href="#1" class="mobmenu">
+                        <a href="#1" class="mobmenu mobmenu04">
                             ВІДГУКИ
                         </a>
                     </div>
@@ -72,7 +72,7 @@
                 
                 
                     <div class="setdrop">
-                        <a href="#1" class="mobmenu">
+                        <a href="#1" class="mobmenu mobmenu05">
                             FAQ
                         </a>
                     </div>
@@ -132,19 +132,6 @@
 
 
         </div>
-    </div>
-        <script>
-            let menuBtn = document.querySelector('.mainmenubtn');
-            let menu = document.querySelector('.dropmenuall');
-            menuBtn.addEventListener('click', function(){
-            menu.classList.toggle('opas1');
-            })
-
-            let menuBtn1 = document.querySelector('.mainmenubtn1');
-            menuBtn1.addEventListener('click', function(){
-            menu.classList.toggle('opas12');
-            })
-        </script>
     </div>
     
     <header id="header" class="Header">
@@ -476,7 +463,7 @@
             </div>
 
             <a href="https://calendly.com/taras-hacken/therapy_taras" class="buttonа">
-                <button class="button2 btn1">
+                <button class="button2 btn1 button3">
                     <span class="textbutton">
                         ЗАПИСАТИСЬ
                     </span>
@@ -643,12 +630,79 @@
     </span>
     
     <script>
+
         let menuBtn2 = document.querySelector('.menu-btn');
         let menu2 = document.querySelector('.dropmenuall');
+        let bodyovervay = document.querySelector('.over');
+        let btn1 = document.querySelector('.btn1');
+        let button2 = document.querySelector('.button2');
+        let button3 = document.querySelector('.button3');
+        let button4 = document.querySelector('.button4');
         menuBtn2.addEventListener('click', function(){
         menuBtn2.classList.toggle('active');
         menu2.classList.toggle('active');
-    })
+        bodyovervay.classList.toggle('content');
+        btn1.classList.toggle('content');
+        button2.classList.toggle('content');    
+        button3.classList.toggle('content');  
+        button4.classList.toggle('content');   
+        })
+
+        let menubuttonckick = document.querySelector('.mobmenu');
+        menubuttonckick.addEventListener('click', function(){
+            menuBtn2.classList.toggle('active');
+            menu2.classList.toggle('active');
+            bodyovervay.classList.toggle('content');
+            btn1.classList.toggle('content');
+            button2.classList.toggle('content');    
+            button3.classList.toggle('content');  
+            button4.classList.toggle('content');       
+            
+        })
+
+        let menubuttonckick1 = document.querySelector('.mobmenu01');
+        menubuttonckick1.addEventListener('click', function(){
+            menuBtn2.classList.toggle('active');
+            menu2.classList.toggle('active');
+            bodyovervay.classList.toggle('content');
+            btn1.classList.toggle('content');
+        button2.classList.toggle('content');    
+        button3.classList.toggle('content');  
+        button4.classList.toggle('content');      
+        })
+
+        let menubuttonckick2 = document.querySelector('.mobmenu02');
+        menubuttonckick2.addEventListener('click', function(){
+            menuBtn2.classList.toggle('active');
+            menu2.classList.toggle('active');
+            bodyovervay.classList.toggle('content');   
+            btn1.classList.toggle('content');
+        button2.classList.toggle('content');    
+        button3.classList.toggle('content');  
+        button4.classList.toggle('content');    
+        })
+
+        let menubuttonckick3 = document.querySelector('.mobmenu03');
+        menubuttonckick3.addEventListener('click', function(){
+            menuBtn2.classList.toggle('active');
+            menu2.classList.toggle('active');
+            bodyovervay.classList.toggle('content');   
+            btn1.classList.toggle('content');
+        button2.classList.toggle('content');    
+        button3.classList.toggle('content');  
+        button4.classList.toggle('content');    
+        })
+
+        let menubuttonckick4 = document.querySelector('.mobmenu04');
+        menubuttonckick4.addEventListener('click', function(){
+            menuBtn2.classList.toggle('active');
+            menu2.classList.toggle('active');
+            bodyovervay.classList.toggle('content');   
+            btn1.classList.toggle('content');
+        button2.classList.toggle('content');    
+        button3.classList.toggle('content');  
+        button4.classList.toggle('content');    
+        })
     </script>
     </body>
 </body>
