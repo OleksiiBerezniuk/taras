@@ -489,6 +489,7 @@ button:active{
 }
 .dropmenuall.active {
 	transform: translateX(0);
+    margin-left: 160px;
 }
 
 .menumenu{
@@ -934,7 +935,7 @@ button:active{
 
     header{
         width: 375px;
-        height: 799px;
+        height: 700px;
         margin-left: auto;
         margin-right: auto;
         margin-left: 0px;
@@ -942,7 +943,7 @@ button:active{
     .AboutMe{
         width: 375px;
         height: 980px;
-        margin-top: 30px;
+        margin-top: 70px;
         margin-left: 0px;
     }
     .approach{
@@ -967,7 +968,7 @@ button:active{
     .photo4{
         display: block;
         margin-top: 189px;
-        margin-left: -243px;
+        margin-left: -253px;
     }
 
     .left{
@@ -978,7 +979,7 @@ button:active{
         width: 375px;
     }
     .emo1 {
-        width: 195px;
+        width: 189px;
         height: 78px;
         margin-top: -429px;
         margin-left: 20px;
@@ -1006,7 +1007,7 @@ button:active{
         margin-left: 325px;
     }
     .dropmenuall {
-        margin-left: 180px;
+        margin-left: 200px;
     }
 
     .n3 {
@@ -1118,7 +1119,7 @@ button:active{
         margin-bottom: 40px;
     }
     .pozitionbtn {
-        width: 375px;
+        width: 400px;
     }
 
     .n4{
