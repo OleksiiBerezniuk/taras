@@ -13,6 +13,7 @@ h1 {
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 
 h2 {
@@ -579,7 +580,7 @@ button:active{
 .menu-btn {
 	width: 30px;
 	height: 30px;
-	position: relative;
+	position: fixed;
 	z-index:2;
 	overflow: hidden;
     margin-left: 780px;
@@ -950,19 +951,19 @@ button:active{
     }
     .AboutMe{
         width: 375px;
-        height: 980px;
+        height: 950px;
         margin-top: 70px;
         margin-left: 0px;
     }
     .approach{
         width: 375px;
         height: 1020px;
-        margin-top: 30px;
+        margin-top: 80px;
     }
     .work{
         width: 375px;
         height: 460px;
-        margin-top: 30px;
+        margin-top: 80px;
     }
 
     .photo{
@@ -989,7 +990,7 @@ button:active{
     .emo1 {
         width: 189px;
         height: 78px;
-        margin-top: -429px;
+        margin-top: -450px;
         margin-left: 20px;
     }
 
@@ -1002,12 +1003,12 @@ button:active{
     .greentext2 {
         width: 375px;
         height: 58px;
-        margin-top: 434px;
+        margin-top: 450px;
         margin-left: 20px;
     }
 
     .btn1 {
-        margin-top: 381px;
+        margin-top: 361px;
         margin-left: 58px;
     }
 
@@ -1041,7 +1042,7 @@ button:active{
 
     .h3About {
         margin-left: 20px;
-        margin-bottom: 0px;
+        margin-bottom: 20px;
         margin-top: 30px;
         height: 30px;
         width: 330px;
@@ -1101,6 +1102,7 @@ button:active{
     .box {
         width: 315px;
         margin-left: 20px;
+        margin-top: 10px;
     }
 
     .box1 {
@@ -1132,6 +1134,9 @@ button:active{
 
     .n4{
         width: 300px;
+    }
+    .blokApproach{
+        margin-top: 30px;
     }
   }
 
