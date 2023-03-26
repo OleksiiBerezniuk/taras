@@ -87,7 +87,9 @@ body{
     text-transform: lowercase;
     color: #382A29;
 }
-
+.pozition{
+    height: 40px;
+}
 .amenu{
     font-family: 'Nunito Sans', sans-serif; 
     font-style: normal;
@@ -215,7 +217,7 @@ button:active{
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .h3About{
@@ -288,7 +290,7 @@ button:active{
     width: 1328px;
     height: 1818px;
     margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .blokApproachTitle{
