@@ -533,6 +533,10 @@ button:active{
     margin-bottom: 13px;
     border: 1px solid rgba(0, 0, 0, 0.15); 
 }
+
+.change-photos{
+    width: 25px;
+}
 .opas{
     margin-left: 50px;
 }
@@ -980,7 +984,7 @@ button:active{
     .work{
         width: 375px;
         height: 740px;
-        margin-top: 60px;
+        margin-top: 110px;
     }
 
     .photo{
@@ -1162,6 +1166,21 @@ button:active{
     .dropmenuall.active {
         margin-left: 182px;
     }
+
+    .position{
+        position: absolute;
+        top: 735px;
+    }
+
+    .position1{
+        position: absolute;
+        top: 1760px;
+    } 
+
+    .position2{
+        position: absolute;
+        top: 2860px;
+    } 
   }
 
 
