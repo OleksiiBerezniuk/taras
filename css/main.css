@@ -170,6 +170,10 @@ button:hover .textbutton{
     color: #FBFBFB; 
 }
 
+button:active .textbutton{
+    color: #FBFBFB; 
+}
+
 button:active{
     background: #22676C;
 }
@@ -596,7 +600,7 @@ button:active{
 	position: fixed;
 	z-index:2;
 	overflow: hidden;
-    margin-left: 750px;
+    margin-left: 730px;
     margin-top: 10px;
 }
 
@@ -730,18 +734,18 @@ button:active{
     }
     .AboutMe{
         width: 812px;
-        height: 970px;
-        margin-top: 115px;
+        height: 920px;
+        margin-top: 90px;
     }
     .approach{
         width: 812px;
         height: 992px;
-        margin-top: 65px;
+        margin-top: 90px;
     }
     .work{
         width: 812px;
         height: 460px;
-        margin-top: 160px;
+        margin-top: 130px;
     }
 
     .left{
@@ -806,16 +810,14 @@ button:active{
     }
 
     .n3 {
-        width: 812px;
-        height: 772px;
-        margin-top: 88px;
-    }
-
-    .n3{
         margin-top: 20px;
-        width: 812px;
+        width: 722px;
         height: 410px;
         margin-left: 40px;
+    }
+
+    .b2{
+        width: 750px;
     }
 
     .t1{
@@ -877,7 +879,7 @@ button:active{
     }
 
     .blokApproachTitle {
-        width: 812px;
+        width: 772px;
         height: 31px;
         margin-top: 15px;
         margin-left: 40px;
@@ -898,7 +900,7 @@ button:active{
         margin-bottom: 20px;
     }
     .box {
-        width: 812px;
+        width: 772px;
         margin-left: 40px;
     }
 
