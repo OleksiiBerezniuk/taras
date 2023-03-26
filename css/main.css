@@ -748,6 +748,10 @@ button:active{
         margin-top: 130px;
     }
 
+    .menu-btn{
+        margin-left: 490px;
+    }
+
     .left{
         height: 375px;
     }
@@ -774,7 +778,7 @@ button:active{
         display: block;
         margin-top: 21px;
         margin-top: 80px;
-        margin-left: -470px;
+        margin-left: -350px;
     }
     
     .photo4{
@@ -817,7 +821,7 @@ button:active{
     }
 
     .b2{
-        width: 750px;
+        width: 600px;
     }
 
     .t1{
@@ -872,28 +876,27 @@ button:active{
     }
     .line {
         display: flex;
-        width: 772px;
+        width: 700px;
         margin-left: 40px;
         margin-top: 15px;
         z-index: -1;
     }
 
     .blokApproachTitle {
-        width: 772px;
+        width: 700px;
         height: 31px;
         margin-top: 15px;
         margin-left: 40px;
     }
 
     .blokApproach1 {
-        width: 772px;
+        width: 700px;
         height: 97px;
         margin-top: 15px;
         margin-left: 40px;
     }
     .right {
         text-align: right;
-        margin-left: auto;
     }
 
     .textwork {
@@ -912,8 +915,7 @@ button:active{
         margin-left: 10px;
     }
     .marLeft30 {
-        margin-left: auto;
-        margin-right: 40px;
+        margin-left: 30px;
     }
 
     .box2{
@@ -940,7 +942,6 @@ button:active{
         width: 345px;
         margin-left: auto;
         margin-right: auto;
-        width: 812px;
         height: 48px;
     }
     .mobmenu:hover {
@@ -957,7 +958,20 @@ button:active{
     }
 
     .dropmenuall.active {
-        margin-left: 590px;
+        margin-left: 340px;
+    }
+
+    .position{
+        position: absolute;
+        top:350px
+    }
+    .position1{
+        position: absolute;
+        top:1350px
+    }
+    .position2{
+        position: absolute;
+        top:2500px
     }
     
   }
