@@ -23,7 +23,7 @@ h2 {
     font-size: 48px;
     line-height: 110%;
     letter-spacing: 0.08em;
-    text-transform: capitalize;
+    
 }
 
 h3 {
@@ -636,6 +636,13 @@ button:active{
   transform: translate(-50%, 0%) rotate(-45deg); 
 }
 
+.none{
+    display: block;
+}
+.block{
+    display: none;
+}
+
 
   @media screen and (max-width: 1400px) {
     .rightApproach{
@@ -725,6 +732,7 @@ button:active{
         line-height: 20px;
         letter-spacing: 0.14em;
         text-align: left;
+        margin-left: 10px;
     }
 
     header{
@@ -777,9 +785,8 @@ button:active{
 
     .photo3{
         display: block;
-        margin-top: 21px;
-        margin-top: 80px;
-        margin-left: -350px;
+        margin-top: 100px;
+        margin-left: -304px;
     }
     
     .photo4{
@@ -974,6 +981,13 @@ button:active{
         position: absolute;
         top:2500px
     }
+
+    .none{
+        display: block;
+    }
+    .block{
+        display: none;
+    }
     
   }
 
@@ -1008,14 +1022,26 @@ button:active{
         display: none;
     }
 
+    .greentext1{
+        display: block;
+        margin-top: 431px;
+        margin-left: 20px;
+    }
+
+    .greentext2{
+        display: none;
+    }
+
     .photo3{
         display: none;
     }
     
     .photo4{
         display: block;
-        margin-top: 189px;
-        margin-left: -248px;
+        margin-top: 275px;
+        margin-left: 49px;
+        position: inherit;
+        z-index: -10;
     }
 
     .left{
@@ -1024,11 +1050,12 @@ button:active{
 
     .pidzagolovok{
         width: 375px;
+        height: 75px;
     }
     .emo1 {
-        width: 189px;
+        width: 309px;
         height: 78px;
-        margin-top: -450px;
+        margin-top: -529px;
         margin-left: 20px;
     }
 
@@ -1046,10 +1073,12 @@ button:active{
     }
 
     .btn1 {
-        margin-top: 361px;
+        margin-top: 469px;
         margin-left: 58px;
     }
-
+    .right{
+        position: absolute;
+    }
     .menu-btn {
         margin-left: 325px;
     }
@@ -1198,6 +1227,16 @@ button:active{
         position: absolute;
         top: 2875px;
     } 
+
+    .none{
+        display: none;
+    }
+    .block{
+        display: block;
+    }
+    .pozabl{
+        position: inherit;
+    }
   }
 
 
