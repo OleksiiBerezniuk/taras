@@ -210,7 +210,8 @@ button:active{
 }
 
 .photo{
-    margin-top: 202px;
+    margin-top: 183px;
+    margin-left: -250px;
 }
 
 .AboutMe{
@@ -756,7 +757,7 @@ button:active{
     }
 
     .menu-btn{
-        margin-left: 490px;
+        margin-left: 560px;
     }
 
     .left{
@@ -783,8 +784,8 @@ button:active{
 
     .photo3{
         display: block;
-        margin-top: 100px;
-        margin-left: -304px;
+        margin-top: 80px;
+        margin-left: -350px;
     }
     
     .photo4{
@@ -801,18 +802,16 @@ button:active{
 
     .greentext2{
         display: block;
-        width: 405px;
+        width: 300px;
         height: 58px;
         margin-top: 20px;
         margin-left: 40px;  
     }
     .emo1{
-        left: 644px;
-        top: 105px;
         width: 168px;
         height: 117px;
         margin-top: -177px;
-        margin-left: 624px;
+        margin-left: 680px;
     }
     .btn1{
         margin-top: 99px;
@@ -964,7 +963,7 @@ button:active{
     }
 
     .dropmenuall.active {
-        margin-left: 340px;
+        margin-left: 390px;
     }
 
     .position{
@@ -1037,7 +1036,7 @@ button:active{
     .photo4{
         display: block;
         margin-top: 275px;
-        margin-left: 49px;
+        margin-left: 19px;
         position: inherit;
         z-index: -10;
     }
