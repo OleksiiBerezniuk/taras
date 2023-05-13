@@ -110,7 +110,7 @@ body{
     margin-left: 8px;
 }
 .mar25{
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 
@@ -127,7 +127,7 @@ body{
 header{
     display: flex;
     width: 1328px;
-    height: 743px;
+    height: 760px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
@@ -181,6 +181,7 @@ button:active{
     width: 661px;
     height: 207px;
     margin-top: 70px;
+    margin-bottom: 0px;
 }
 .pidzagolovok{
     width: 693px;
@@ -206,11 +207,11 @@ button:active{
 }
 
 .btn1{
-    margin-top: 100px;  
+    margin-top: 140px;  
 }
 
 .photo{
-    margin-top: 183px;
+    margin-top: 200px;
     margin-left: -250px;
 }
 
